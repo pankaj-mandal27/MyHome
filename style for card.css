@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    background: linear-gradient(from center to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+
+.card {
+    align-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    height: 160px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+    color: aliceblue;
+    transition: 0.3s ease;
+}
+.card-daughter{
+    align-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    height: 160px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+    color: aliceblue;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    height: 280px;
+    transform: translateY(+5px);
+    h2{
+        color:#ff7200 ;
+    opacity: 100%;
+    transform: translateY(+5px);
+    }
+    p{
+        opacity: 100%;
+    }
+}
+.card-daughter:hover {
+    height: 320px;
+    transform: translateY(+5px);
+    h2{
+        color:#ff7200 ;
+    opacity: 100%;
+    transform: translateY(+5px);
+    }
+    p{
+        opacity: 100%;
+    }
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 123, 0);
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-family: "Playwrite US Modern", cursive;;
+    font-weight: bold;
+    opacity: 0%;
+    margin: 0 0 5px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+.card-daughter h2 {
+    font-family: "Playwrite US Modern", cursive;;
+    font-weight: bold;
+    opacity: 0%;
+    margin: 0 0 5px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.card p{
+    opacity: 0%;
+    font-family: "Playwrite US Modern", cursive;;
+}
+.card-daughter p{
+    opacity: 0%;
+    font-family: "Playwrite US Modern", cursive;;
+}
+
+
+.handles {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 0;
+    margin: 0px;
+    
+}
+
+.card ul{
+    list-style: none;
+}
